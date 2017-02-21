@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5ABF3BD0-5FF7-450B-86C9-C0A71737AF5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B07A456-5DA4-4F35-AB6E-28ADD0A05330}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.DLocks", "src\SmartRoute.DLocks\SmartRoute.DLocks.xproj", "{23F5C17C-F4C3-4FA4-BEEB-2DB2F69DF2C6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.DLocks.ServerConsole", "src\SmartRoute.DLocks.ServerConsole\SmartRoute.DLocks.ServerConsole.xproj", "{A7F61BA4-D60F-4752-86C3-56197D42F528}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.DLocks.TestConsole", "src\SmartRoute.DLocks.TestConsole\SmartRoute.DLocks.TestConsole.xproj", "{96E44934-C5F0-4F7F-A163-99E78C440902}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute", "..\..\SmartRoute\SmartRoute\src\SmartRoute\SmartRoute.xproj", "{F2BE7C20-AE86-4A98-A997-0BFFECAD9C2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23F5C17C-F4C3-4FA4-BEEB-2DB2F69DF2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F5C17C-F4C3-4FA4-BEEB-2DB2F69DF2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F5C17C-F4C3-4FA4-BEEB-2DB2F69DF2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F5C17C-F4C3-4FA4-BEEB-2DB2F69DF2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F61BA4-D60F-4752-86C3-56197D42F528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F61BA4-D60F-4752-86C3-56197D42F528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F61BA4-D60F-4752-86C3-56197D42F528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F61BA4-D60F-4752-86C3-56197D42F528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E44934-C5F0-4F7F-A163-99E78C440902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E44934-C5F0-4F7F-A163-99E78C440902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E44934-C5F0-4F7F-A163-99E78C440902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E44934-C5F0-4F7F-A163-99E78C440902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BE7C20-AE86-4A98-A997-0BFFECAD9C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BE7C20-AE86-4A98-A997-0BFFECAD9C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BE7C20-AE86-4A98-A997-0BFFECAD9C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BE7C20-AE86-4A98-A997-0BFFECAD9C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23F5C17C-F4C3-4FA4-BEEB-2DB2F69DF2C6} = {5ABF3BD0-5FF7-450B-86C9-C0A71737AF5B}
+		{A7F61BA4-D60F-4752-86C3-56197D42F528} = {5ABF3BD0-5FF7-450B-86C9-C0A71737AF5B}
+		{96E44934-C5F0-4F7F-A163-99E78C440902} = {5ABF3BD0-5FF7-450B-86C9-C0A71737AF5B}
+	EndGlobalSection
+EndGlobal
