@@ -1,6 +1,6 @@
 # SmartRoute.DLocks
 SmartRoute分布式锁
-#　锁服务
+##锁服务
 ``` c#
 		public static void Main(string[] args)
 		{
@@ -15,7 +15,7 @@ SmartRoute分布式锁
 		}
 ```
 
-# 调用锁
+##调用锁
 ``` c#
 			INode node = NodeFactory.Default;
 			node.Loger.Type = LogType.ALL;
